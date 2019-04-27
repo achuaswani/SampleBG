@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: bgservice
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2019 by Your Company
+
+# these should not be edited
+name: bgservice
+moduleid: com.ust.bgservice
+guid: c822fb42-7308-4079-b513-f65d040f627c
+platform: iphone
+minsdk: 7.5.0.GA

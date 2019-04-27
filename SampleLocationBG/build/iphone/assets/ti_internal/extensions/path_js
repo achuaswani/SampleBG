@@ -1,0 +1,701 @@
+"use strict";require("core-js/modules/es7.symbol.async-iterator"),require("core-js/modules/es6.symbol"),require("core-js/modules/web.dom.iterable"),require("core-js/modules/es6.regexp.split"),require("core-js/modules/es6.regexp.replace");var
+
+isWin32="windowsphone"===Ti.Platform.osname||"windowsstore"===Ti.Platform.osname,
+FORWARD_SLASH=47,
+
+BACKWARD_SLASH=92;
+
+
+
+
+
+
+
+function isWindowsDeviceName(charCode){
+return 65<=charCode&&90>=charCode||97<=charCode&&122>=charCode;
+}
+
+
+
+
+
+
+
+
+
+function assertType(arg,name,typename){
+var type=typeof arg;
+
+if(type!==typename)
+throw new TypeError(`The "${name}" argument must be of type ${typename}. Received type ${type}`);
+
+}
+
+
+
+
+
+
+
+
+function _isAbsolute(isPosix,filepath){
+assertType(filepath,"path","string");
+var length=filepath.length;
+
+if(0===length)
+return!1;
+
+
+var firstChar=filepath.charCodeAt(0);
+
+if(firstChar===FORWARD_SLASH)
+return!0;
+
+
+
+if(isPosix)
+return!1;
+
+
+
+if(firstChar===BACKWARD_SLASH)
+return!0;
+
+
+if(2<length&&isWindowsDeviceName(firstChar)&&":"===filepath.charAt(1)){
+var thirdChar=filepath.charAt(2);
+return"/"===thirdChar||"\\"===thirdChar;
+}
+
+return!1;
+}
+
+
+
+
+
+
+
+
+function _dirname(separator,filepath){
+assertType(filepath,"path","string");
+var length=filepath.length;
+
+if(0===length)
+return".";var
+
+
+
+fromIndex=length-1,
+hadTrailing=filepath.endsWith(separator);
+
+hadTrailing&&
+fromIndex--;
+
+
+var foundIndex=filepath.lastIndexOf(separator,fromIndex);
+
+if(-1===foundIndex){
+
+if(2<=length&&"\\"===separator&&":"===filepath.charAt(1)){
+var firstChar=filepath.charCodeAt(0);
+
+if(isWindowsDeviceName(firstChar))
+return filepath;
+
+}
+
+return".";
+}return(
+
+
+0===foundIndex?
+separator:
+
+
+
+1===foundIndex&&"/"===separator&&"/"===filepath.charAt(0)?
+"//":
+
+
+filepath.slice(0,foundIndex));
+}
+
+
+
+
+
+
+
+
+function _extname(separator,filepath){
+assertType(filepath,"path","string");
+var index=filepath.lastIndexOf(".");
+
+if(-1===index||0===index)
+return"";
+
+
+
+var endIndex=filepath.length;
+
+
+
+
+
+return filepath.endsWith(separator)&&endIndex--,filepath.slice(index,endIndex);
+}
+
+function lastIndexWin32Separator(filepath,index){
+for(var
+char,i=index;0<=i;i--)
+
+if(char=filepath.charCodeAt(i),char===BACKWARD_SLASH||char===FORWARD_SLASH)
+return i;
+
+
+
+return-1;
+}
+
+
+
+
+
+
+
+
+
+function _basename(separator,filepath,ext){
+assertType(filepath,"path","string"),
+
+ext!==void 0&&
+assertType(ext,"ext","string");
+
+
+var length=filepath.length;
+
+if(0===length)
+return"";var
+
+
+isPosix="/"===separator,
+endIndex=length,
+
+lastCharCode=filepath.charCodeAt(length-1);
+
+lastCharCode!==FORWARD_SLASH&&(isPosix||lastCharCode!==BACKWARD_SLASH)||
+endIndex--;
+
+
+
+var lastIndex=-1;
+
+if(isPosix)
+lastIndex=filepath.lastIndexOf(separator,endIndex-1);else
+
+
+
+
+if(lastIndex=lastIndexWin32Separator(filepath,endIndex-1),(2===lastIndex||-1===lastIndex)&&":"===filepath.charAt(1)&&isWindowsDeviceName(filepath.charCodeAt(0)))
+return"";
+
+
+
+
+var base=filepath.slice(lastIndex+1,endIndex);return(
+
+void 0===ext?
+base:
+
+
+base.endsWith(ext)?base.slice(0,base.length-ext.length):base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function _normalize(separator,filepath){
+
+
+if(assertType(filepath,"path","string"),0===filepath.length)
+return".";
+
+
+
+var isWindows="\\"===separator;
+
+isWindows&&(
+filepath=filepath.replace(/\//g,separator));var
+
+
+hadLeading=filepath.startsWith(separator),
+
+isUNC=hadLeading&&isWindows&&2<filepath.length&&"\\"===filepath.charAt(1),
+hadTrailing=filepath.endsWith(separator),
+parts=filepath.split(separator),
+result=[],
+_iteratorNormalCompletion=!0,
+_didIteratorError=!1,
+_iteratorError=void 0;
+
+try{
+for(var _step,
+segment,_iterator=parts[Symbol.iterator]();!(_iteratorNormalCompletion=(_step=_iterator.next()).done);_iteratorNormalCompletion=!0)segment=_step.value,
+
+0!==segment.length&&"."!==segment&&(
+".."===segment?
+result.pop():
+
+result.push(segment));
+
+
+
+}catch(err){
+_didIteratorError=!0,
+_iteratorError=err;
+}finally{
+try{
+_iteratorNormalCompletion||null==_iterator.return||
+_iterator.return();
+
+}finally{
+if(_didIteratorError)
+throw _iteratorError;
+
+}
+}
+
+var normalized=hadLeading?separator:"";
+
+
+
+
+
+
+
+
+
+
+return normalized+=result.join(separator),hadTrailing&&(normalized+=separator),isUNC&&(normalized="\\"+normalized),normalized;
+}
+
+
+
+
+
+
+
+function assertSegment(segment){
+if("string"!=typeof segment)
+throw new TypeError(`Path must be a string. Received ${segment}`);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+function _join(separator,paths){var
+result=[],
+
+_iteratorNormalCompletion2=!0,
+_didIteratorError2=!1,
+_iteratorError2=void 0;
+
+try{
+for(var _step2,
+segment,_iterator2=paths[Symbol.iterator]();!(_iteratorNormalCompletion2=(_step2=_iterator2.next()).done);_iteratorNormalCompletion2=!0)segment=_step2.value,
+assertSegment(segment),
+
+0!==segment.length&&
+result.push(segment);
+
+
+}catch(err){
+_didIteratorError2=!0,
+_iteratorError2=err;
+}finally{
+try{
+_iteratorNormalCompletion2||null==_iterator2.return||
+_iterator2.return();
+
+}finally{
+if(_didIteratorError2)
+throw _iteratorError2;
+
+}
+}
+
+return _normalize(separator,result.join(separator));
+}
+
+
+
+
+
+
+
+
+
+function _resolve(separator,paths){
+
+
+
+
+for(var
+segment,resolved="",hitRoot=!1,isPosix="/"===separator,i=paths.length-1;0<=i;i--)
+
+
+if((segment=paths[i],assertSegment(segment),0!==segment.length)&&(
+
+
+
+resolved=segment+separator+resolved,
+
+_isAbsolute(isPosix,segment))){
+
+hitRoot=!0;
+break;
+}
+
+
+
+hitRoot||(
+resolved=process.cwd()+separator+resolved);
+
+
+var normalized=_normalize(separator,resolved);return(
+
+normalized.charAt(normalized.length-1)===separator?
+
+
+!isPosix&&3===normalized.length&&":"===normalized.charAt(1)&&isWindowsDeviceName(normalized.charCodeAt(0))?
+normalized:
+
+
+
+normalized.slice(0,normalized.length-1):
+
+
+normalized);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function _relative(separator,from,to){
+
+
+
+if(assertType(from,"from","string"),assertType(to,"to","string"),from===to)
+return"";
+
+
+
+
+
+if(from=_resolve(separator,[from]),to=_resolve(separator,[to]),from===to)
+return"";for(var
+
+
+
+
+
+upCount=0,
+remainingPath="";!0;)
+
+{
+if(to.startsWith(from)){
+
+remainingPath=to.slice(from.length);
+break;
+}
+
+
+from=_dirname(separator,from),
+upCount++;
+}
+
+
+
+
+
+
+return 0<remainingPath.length&&(remainingPath=remainingPath.slice(1)),(".."+separator).repeat(upCount)+remainingPath;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function _parse(separator,filepath){
+assertType(filepath,"path","string");var
+result={
+root:"",
+dir:"",
+base:"",
+ext:"",
+name:""},
+
+length=filepath.length;
+
+if(0===length)
+return result;
+
+
+
+result.base=_basename(separator,filepath),
+result.ext=_extname(separator,result.base);
+var baseLength=result.base.length;
+result.name=result.base.slice(0,baseLength-result.ext.length);
+var toSubtract=0===baseLength?0:baseLength+1;
+result.dir=filepath.slice(0,filepath.length-toSubtract);
+
+var firstCharCode=filepath.charCodeAt(0);
+
+if(firstCharCode===FORWARD_SLASH)
+
+return result.root="/",result;
+
+
+
+if("/"===separator)
+return result;
+
+
+
+if(firstCharCode===BACKWARD_SLASH)
+
+
+
+return result.root="\\",result;
+
+
+
+if(1<length&&isWindowsDeviceName(firstCharCode)&&":"===filepath.charAt(1)){
+if(2<length){
+
+var thirdCharCode=filepath.charCodeAt(2);
+
+if(thirdCharCode===FORWARD_SLASH||thirdCharCode===BACKWARD_SLASH)
+
+return result.root=filepath.slice(0,3),result;
+
+}
+
+
+result.root=filepath.slice(0,2);
+}
+
+return result;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function _format(separator,pathObject){
+assertType(pathObject,"pathObject","object");
+var base=pathObject.base||`${pathObject.name||""}${pathObject.ext||""}`;return(
+
+
+pathObject.dir&&pathObject.dir!==pathObject.root?
+
+
+
+
+`${pathObject.dir}${separator}${base}`:`${pathObject.root||""}${base}`);
+}
+
+
+
+
+
+
+
+
+
+function toNamespacedPath(filepath){
+if("string"!=typeof filepath)
+return filepath;
+
+
+if(0===filepath.length)
+return"";var
+
+
+resolvedPath=_resolve("\\",[filepath]),
+
+length=resolvedPath.length;
+
+if(2>length)
+
+return filepath;
+
+
+var firstCharCode=resolvedPath.charCodeAt(0);
+
+if(firstCharCode===BACKWARD_SLASH&&"\\"===resolvedPath.charAt(1)){
+
+if(3<=length){
+var thirdChar=resolvedPath.charAt(2);
+
+if("?"===thirdChar||"."===thirdChar)
+return filepath;
+
+}
+
+return"\\\\?\\UNC\\"+resolvedPath.slice(2);
+}return isWindowsDeviceName(firstCharCode)&&":"===resolvedPath.charAt(1)?
+"\\\\?\\"+resolvedPath:
+
+
+filepath;
+}var
+
+Win32Path={
+sep:"\\",
+delimiter:";",
+basename:function basename(filepath,ext){
+return _basename(this.sep,filepath,ext);
+},
+normalize:function normalize(filepath){
+return _normalize(this.sep,filepath);
+},
+join:function join(){
+for(var _len=arguments.length,paths=Array(_len),_key=0;_key<_len;_key++)
+paths[_key]=arguments[_key];
+
+
+return _join(this.sep,paths);
+},
+extname:function extname(filepath){
+return _extname(this.sep,filepath);
+},
+dirname:function dirname(filepath){
+return _dirname(this.sep,filepath);
+},
+isAbsolute:function isAbsolute(filepath){
+return _isAbsolute(!1,filepath);
+},
+relative:function relative(from,to){
+return _relative(this.sep,from,to);
+},
+resolve:function resolve(){
+for(var _len2=arguments.length,paths=Array(_len2),_key2=0;_key2<_len2;_key2++)
+paths[_key2]=arguments[_key2];
+
+
+return _resolve(this.sep,paths);
+},
+parse:function parse(filepath){
+return _parse(this.sep,filepath);
+},
+format:function format(pathObject){
+return _format(this.sep,pathObject);
+},
+toNamespacedPath:toNamespacedPath},
+
+PosixPath={
+sep:"/",
+delimiter:":",
+basename:function basename(filepath,ext){
+return _basename(this.sep,filepath,ext);
+},
+normalize:function normalize(filepath){
+return _normalize(this.sep,filepath);
+},
+join:function join(){
+for(var _len3=arguments.length,paths=Array(_len3),_key3=0;_key3<_len3;_key3++)
+paths[_key3]=arguments[_key3];
+
+
+return _join(this.sep,paths);
+},
+extname:function extname(filepath){
+return _extname(this.sep,filepath);
+},
+dirname:function dirname(filepath){
+return _dirname(this.sep,filepath);
+},
+isAbsolute:function isAbsolute(filepath){
+return _isAbsolute(!0,filepath);
+},
+relative:function relative(from,to){
+return _relative(this.sep,from,to);
+},
+resolve:function resolve(){
+for(var _len4=arguments.length,paths=Array(_len4),_key4=0;_key4<_len4;_key4++)
+paths[_key4]=arguments[_key4];
+
+
+return _resolve(this.sep,paths);
+},
+parse:function parse(filepath){
+return _parse(this.sep,filepath);
+},
+format:function format(pathObject){
+return _format(this.sep,pathObject);
+},
+toNamespacedPath:function toNamespacedPath(filepath){
+return filepath;
+}},
+
+path=isWin32?Win32Path:PosixPath;
+path.win32=Win32Path,
+path.posix=PosixPath,
+module.exports=path;

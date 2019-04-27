@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+"use strict";require("core-js/modules/es6.map");var
+
+bindings=new Map,
+
+
+originalRequire=global.require;
+
+
+
+
+
+
+
+
+
+if(global.require=function(moduleId){return bindings.has(moduleId)&&(moduleId=bindings.get(moduleId)),originalRequire(moduleId)},"android"===Ti.Platform.name){
+
+var originalModuleRequire=global.Module.prototype.require;
+
+global.Module.prototype.require=function(path,context){
+
+
+
+
+return bindings.has(path)&&(path=bindings.get(path)),originalModuleRequire.call(this,path,context);
+};
+}
+
+
+
+
+
+
+
+
+
+
+
+function addBinding(bindingId,internalPath){
+bindings.set(bindingId,internalPath);
+}
+
+module.exports=addBinding;

@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: locationlistenerios
+author: Aswani
+license: Navistar
+copyright: UST
+
+# these should not be edited
+name: locationlistenerios
+moduleid: com.ust.location
+guid: 6ec5ae18-c10e-41ec-b1b8-84cc3a9141ff
+platform: iphone
+minsdk: 7.5.0.GA

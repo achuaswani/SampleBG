@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.navistar.dvirdev</id>
+  <name>SampleLocationBG</name>
+  <version>1.0</version>
+  <publisher>U26448</publisher>
+  <url>undefined</url>
+  <description>undefined</description>
+  <copyright>2019 by U26448</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>a2a9e1ae-bacf-4b6f-9eee-aac1b7f99d8c</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>Your location is used to accurately pinpoint the location area anytime your status is changed automatically and motion is detected.</string>
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>Will do something awesome in the background</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>Your location is used to accurately pinpoint the location area anytime your status is changed automatically and motion is detected.</string>
+        <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+        <string>Your location is used to accurately pinpoint the location area anytime your status is changed automatically and motion is detected.</string>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+        <key>UIBackgroundModes</key>
+        <array>
+          <string>bluetooth-central</string>
+          <string>bluetooth-peripheral</string>
+        </array>
+        <key>UIRequiredDeviceCapabilities</key>
+        <array>
+          <string>bluetooth-le</string>
+        </array>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest android:versionCode="1" 
+      xmlns:android="http://schemas.android.com/apk/res/android"/>
+    </android>
+    <modules>
+      <module platform="iphone">ti.map</module>
+      <module platform="android">ti.map</module>
+    </modules>
+    <deployment-targets>
+      <target device="android">true</target>
+      <target device="ipad">true</target>
+      <target device="iphone">true</target>
+    </deployment-targets>
+    <sdk-version>8.0.0.GA</sdk-version>
+    <property name="appc-app-id" type="string"/>
+    <plugins/>
+  </ti:app>

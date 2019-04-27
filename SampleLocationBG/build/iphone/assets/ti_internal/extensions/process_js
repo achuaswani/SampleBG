@@ -1,0 +1,59 @@
+"use strict";
+
+
+
+
+
+
+
+
+
+
+function standardizeArch(original){return(
+
+
+
+"armv7"===original||
+"armeabi"===original||
+"armeabi-v7a"===original||
+"ARM"===original?
+"arm":
+
+
+"arm64-v8a"===original?
+"arm64":
+
+
+"i386"===original||
+"x86"===original?
+"ia32":
+
+
+"x86_64"===original||
+"ia64"===original?
+"x64":
+
+
+"mips64"===original?
+"mips":
+
+
+"Unknown"===original?
+"unknown":
+
+
+original);
+
+}
+
+var process={
+arch:standardizeArch(Ti.Platform.architecture),
+cwd:function cwd(){
+return __dirname;
+},
+
+
+platform:Ti.Platform.osname};
+
+global.process=process,
+module.exports=process;

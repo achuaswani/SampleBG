@@ -1,0 +1,20 @@
+
+
+
+
+
+
+"use strict";require("core-js/modules/es6.date.to-json"),
+
+
+
+
+
+"function"!=typeof Error.prototype.toJSON&&(
+Error.prototype.toJSON=function(){
+var properties={};
+
+
+
+return Object.getOwnPropertyNames(this).forEach(function(name){properties[name]=this[name]},this),properties;
+});

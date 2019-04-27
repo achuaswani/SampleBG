@@ -1,0 +1,411 @@
+
+2019-4-26 18:50:45
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.14.4
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 8.9.1
+  npm Version                 = 5.5.1
+
+Titanium CLI
+  CLI Version                 = 5.1.1
+
+Titanium SDK
+  SDK Version                 = 8.0.0.GA
+  SDK Path                    = /Users/U13967/Library/Application Support/Titanium/mobilesdk/osx/8.0.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/U13967/.appcelerator/install/7.0.10/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 8.0.0.GA --project-dir /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG --target device --ios-version 12.2 --device-family universal --developer-name Srinivas Mallela (834GGUQVGZ) --device-id 765c65cbff2d4b78c9ba245a47fcfb9854e4a4aa --pp-uuid 2bd2e663-92a6-4cd5-baa1-33f69dd07f20 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 65172 --config-file /var/folders/12/3b0_jhwd285gdpl2_4747t9m0000gp/T/build-1556322641094.json --no-banner --project-dir /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG
+
+[DEBUG]  Detecting modules in /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/modules
+[DEBUG]  Detected iphone module: com.ust.bgservice 1.0 @ /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/modules/iphone/com.ust.bgservice/1.0
+[DEBUG]  Detected iphone module: com.ust.location 1.0 @ /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/modules/iphone/com.ust.location/1.0
+[DEBUG]  Detected iphone module: com.ust.locationlistener 1.0 @ /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/modules/iphone/com.ust.locationlistener/1.0
+[DEBUG]  Detecting modules in /Users/U13967/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.aca 1.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.aca/1.0.1
+[DEBUG]  Detected android module: com.appcelerator.aca 1.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.aca/1.0.3
+[DEBUG]  Detected android module: com.appcelerator.aca 1.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.aca/1.1.0
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.5 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected android module: com.appcelerator.apm 2.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/2.0.0
+[DEBUG]  Detected android module: com.appcelerator.apm 3.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/3.0.0
+[DEBUG]  Detected android module: com.appcelerator.apm 3.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/3.1.0
+[DEBUG]  Detected android module: com.appcelerator.apm 3.1.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/3.1.1
+[DEBUG]  Detected android module: com.appcelerator.apm 3.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/3.1.2
+[DEBUG]  Detected android module: facebook 5.2.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/5.2.0
+[DEBUG]  Detected android module: facebook 6.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/6.1.0
+[DEBUG]  Detected android module: facebook 6.2.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/6.2.0
+[DEBUG]  Detected android module: facebook 7.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/7.0.0
+[DEBUG]  Detected android module: facebook 7.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/7.1.0
+[DEBUG]  Detected android module: facebook 7.2.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/7.2.0
+[DEBUG]  Detected android module: facebook 7.3.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/7.3.1
+[DEBUG]  Detected android module: facebook 8.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/facebook/8.0.0
+[DEBUG]  Detected android module: hyperloop 1.2.8 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/1.2.8
+[DEBUG]  Detected android module: hyperloop 2.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/2.1.3
+[DEBUG]  Detected android module: hyperloop 3.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.0.1
+[DEBUG]  Detected android module: hyperloop 3.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.0.2
+[DEBUG]  Detected android module: hyperloop 3.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.0.3
+[DEBUG]  Detected android module: hyperloop 3.0.5 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.0.5
+[DEBUG]  Detected android module: hyperloop 3.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.1.2
+[DEBUG]  Detected android module: hyperloop 3.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.1.3
+[DEBUG]  Detected android module: hyperloop 3.1.4 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/3.1.4
+[DEBUG]  Detected android module: hyperloop 4.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/android/hyperloop/4.0.2
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/4.0.3
+[DEBUG]  Detected android module: ti.cloudpush 4.0.4 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/4.0.4
+[DEBUG]  Detected android module: ti.cloudpush 5.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.0.1
+[DEBUG]  Detected android module: ti.cloudpush 5.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.0.2
+[DEBUG]  Detected android module: ti.cloudpush 5.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.1.0
+[DEBUG]  Detected android module: ti.cloudpush 5.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.1.3
+[DEBUG]  Detected android module: ti.cloudpush 5.2.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/5.2.0
+[DEBUG]  Detected android module: ti.cloudpush 6.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.cloudpush/6.0.1
+[DEBUG]  Detected android module: ti.identity 2.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.identity/2.0.0
+[DEBUG]  Detected android module: ti.identity 2.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.identity/2.1.0
+[DEBUG]  Detected android module: ti.map 2.3.10 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/2.3.10
+[DEBUG]  Detected android module: ti.map 3.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/3.0.1
+[DEBUG]  Detected android module: ti.map 3.3.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/3.3.1
+[DEBUG]  Detected android module: ti.map 4.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/4.0.0
+[DEBUG]  Detected android module: ti.map 4.1.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/4.1.1
+[DEBUG]  Detected android module: ti.map 4.2.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/4.2.0
+[DEBUG]  Detected android module: ti.map 4.3.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.map/4.3.1
+[DEBUG]  Detected android module: ti.playservices 11.0.40 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.playservices/11.0.40
+[DEBUG]  Detected android module: ti.playservices 16.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.playservices/16.1.2
+[DEBUG]  Detected android module: ti.touchid 1.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.touchid/1.0.0
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.touchid/2.1.0
+[DEBUG]  Detected android module: ti.touchid 2.2.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.touchid/2.2.0
+[DEBUG]  Detected android module: ti.touchid 3.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.touchid/3.0.0
+[DEBUG]  Detected android module: ti.touchid 3.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.touchid/3.0.1
+[DEBUG]  Detected android module: ti.webdialog 1.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/android/ti.webdialog/1.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/U13967/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.aca 1.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.aca/1.0.1
+[DEBUG]  Detected iphone module: com.appcelerator.aca 1.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.aca/1.0.3
+[DEBUG]  Detected iphone module: com.appcelerator.aca 1.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.aca/1.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.5 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected iphone module: com.appcelerator.apm 2.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/2.0.0
+[DEBUG]  Detected iphone module: com.appcelerator.apm 3.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/3.0.0
+[DEBUG]  Detected iphone module: com.appcelerator.apm 3.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/3.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.apm 3.1.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/3.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.apm 3.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/3.1.2
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.1.0
+[DEBUG]  Detected iphone module: facebook 5.2.7 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/5.2.7
+[DEBUG]  Detected iphone module: facebook 5.4.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/5.4.0
+[DEBUG]  Detected iphone module: facebook 5.6.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/5.6.0
+[DEBUG]  Detected iphone module: facebook 5.7.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/5.7.0
+[DEBUG]  Detected iphone module: facebook 5.8.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/5.8.0
+[DEBUG]  Detected iphone module: facebook 5.9.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/5.9.0
+[DEBUG]  Detected iphone module: facebook 6.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/facebook/6.0.0
+[DEBUG]  Detected iphone module: hyperloop 1.2.8 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
+[DEBUG]  Detected iphone module: hyperloop 2.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/2.1.3
+[DEBUG]  Detected iphone module: hyperloop 3.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.1
+[DEBUG]  Detected iphone module: hyperloop 3.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.2
+[DEBUG]  Detected iphone module: hyperloop 3.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.3
+[DEBUG]  Detected iphone module: hyperloop 3.0.5 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.0.5
+[DEBUG]  Detected iphone module: hyperloop 3.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.1.2
+[DEBUG]  Detected iphone module: hyperloop 3.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.1.3
+[DEBUG]  Detected iphone module: hyperloop 3.1.4 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/3.1.4
+[DEBUG]  Detected iphone module: hyperloop 4.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/hyperloop/4.0.2
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.1
+[DEBUG]  Detected iphone module: ti.identity 1.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.identity/1.0.1
+[DEBUG]  Detected iphone module: ti.identity 1.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.identity/1.0.3
+[DEBUG]  Detected iphone module: ti.identity 1.0.5 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.identity/1.0.5
+[DEBUG]  Detected iphone module: ti.map 2.12.3 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/2.12.3
+[DEBUG]  Detected iphone module: ti.map 2.7.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/2.7.1
+[DEBUG]  Detected iphone module: ti.map 2.9.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/2.9.0
+[DEBUG]  Detected iphone module: ti.map 3.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.1
+[DEBUG]  Detected iphone module: ti.map 3.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.0.2
+[DEBUG]  Detected iphone module: ti.map 3.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
+[DEBUG]  Detected iphone module: ti.touchid 1.2.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.2
+[DEBUG]  Detected iphone module: ti.touchid 2.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.2
+[DEBUG]  Detected iphone module: ti.touchid 2.1.4 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.4
+[DEBUG]  Detected iphone module: ti.webdialog 1.1.0 @ /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.webdialog/1.1.0
+[DEBUG]  Detected windows module: hyperloop 2.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/2.1.3
+[DEBUG]  Detected windows module: hyperloop 3.0.1 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.1
+[DEBUG]  Detected windows module: hyperloop 3.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.2
+[DEBUG]  Detected windows module: hyperloop 3.0.3 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.3
+[DEBUG]  Detected windows module: hyperloop 3.0.5 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.0.5
+[DEBUG]  Detected windows module: hyperloop 3.1.2 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.1.2
+[DEBUG]  Detected windows module: hyperloop 3.1.3 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.1.3
+[DEBUG]  Detected windows module: hyperloop 3.1.4 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/3.1.4
+[DEBUG]  Detected windows module: hyperloop 4.0.2 @ /Users/U13967/Library/Application Support/Titanium/modules/windows/hyperloop/4.0.2
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=iphone deploy-type=test
+[INFO]   Found Titanium module id=ti.map version=3.1.0 platform=iphone deploy-type=test path=/Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/U13967/Library/Application Support/Titanium/mobilesdk/osx/8.0.0.GA/iphone
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building using iOS SDK: 12.2
+[INFO]   Building for iOS device: 765c65cbff2d4b78c9ba245a47fcfb9854e4a4aa
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphoneos
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   iOS Development Certificate: Srinivas Mallela (834GGUQVGZ)
+[INFO]   Team ID: K4399MNNEW
+[INFO]   Minimum iOS version: 9.0
+[INFO]   Using default keychain
+[INFO]   Logging enabled on port 44768
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Forcing rebuild: modules hash changed since last build
+[INFO]     Was: a4a7a1ce37a62288c5d7fc182dbd704e
+[INFO]     Now: 4e16b93101e69e91e961bb5062a733e4
+[INFO]   Initializing the build directory
+[TRACE]  Starting third-party framework detection
+[TRACE]  Scanning /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0 for frameworks
+[TRACE]  Scanning /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0/platform for frameworks
+[TRACE]  offline build file /var/folders/12/3b0_jhwd285gdpl2_4747t9m0000gp/T/build-2a201d3a1722c29e204bfcc0373d66b0d8bc5518.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"aswani.gangadharan@navistar.com","session":"fb154c3b08b7a1937723c9bdc5f50b3b3739d435 bbtn8Uhw0qI7G4BqgIL8mAzHWUD6rXWrOzQSrXUXoSlDZQOgRxfZxUxRmN8LgfYa9CqvY7YZwO2Mgvw834MaT8AbC8lEoBa/F5ul8SPzoZbR43EIewYRSRgQYnT85m1C2/Ch4mruI2krw0DTTNbb2mvG9ZMzhzI3s9/tURrbHj6sJ+2F9x8gBQ23IoDXd4Qi+y1FKAIHRBX3/rR328pvBTxIL1VOroMMNLOqysn2xu3ft1gy0uJtacyM+TvA+Jip54lgVFq7lBQ8TvVPROPLuu6iMOqBzHpsQkdogp57diHJ1f8i892+hWesAu86XNAKNrDfEL8JS3Gl3Qk99SKHeWf5cq1FONEVyRReuUyB2lMhzSNGalvssHLoLzioR3YiDxdXMh4osF6GKegjQ77Mlkg340fn6J0arJzQPdfBHIcBZC4aPvdq49492W0utSQILwpGzC51PgfNAULPjpjzrGM3dXtkgzZqb0CO6By9BK5TYVi7aoa/cRTPDbHQLExIDg7Gy3ua2qzp9vnAkqVySiIWUBLqiIF/LlurA4UlNdpK+U5ZZNZpBUWSpSri9vA9FKF5qn8Djp8ALPwxuElKwcHNGBWptyXwjcTglKRI8Hh5q24G8Z0ZmXezgYFJ4PlBoBWvOvRNxxK7zPfKEO+8cROQBomXBckazadUqveQDoJVPeG5uOlV25VUnHWCYxSV9UdTRrNgD7Q+MDVFkIgGZQza2kKHa29xN7Df0IjODIw=","ipaddress":"192.168.0.20","fingerprint":"f04d6eed5c1add42bdfe3dcb3d6b9b92cb6039d0","fingerprint_description":"Mac OSX Serial Number: C02TT3PWHV2M","guid":"a2a9e1ae-bacf-4b6f-9eee-aac1b7f99d8c","appid":"com.navistar.dvirdev","name":"SampleLocationBG","org_id":100000720,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.navistar.dvirdev</id>\n  <name>SampleLocationBG</name>\n  <version>1.0</version>\n  <publisher>U26448</publisher>\n  <url>undefined</url>\n  <description>undefined</description>\n  <copyright>2019 by U26448</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>a2a9e1ae-bacf-4b6f-9eee-aac1b7f99d8c</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <property name=\"run-on-main-thread\" type=\"bool\">***</property>\n  <ios>\n    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>\n    <use-app-thinning>true</use-app-thinning>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <string>Your location is used to accurately pinpoint the location area anytime your status is changed automatically and motion is detected.</string>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <string>Will do something awesome in the background</string>\n        <key>NSLocationWhenInUseUsageDescription</key>\n        <string>Your location is used to accurately pinpoint the location area anytime your status is changed automatically and motion is detected.</string>\n        <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>\n        <string>Your location is used to accurately pinpoint the location area anytime your status is changed automatically and motion is detected.</string>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n        <key>UIBackgroundModes</key>\n        <array>\n          <string>bluetooth-central</string>\n          <string>bluetooth-peripheral</string>\n        </array>\n        <key>UIRequiredDeviceCapabilities</key>\n        <array>\n          <string>bluetooth-le</string>\n        </array>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <manifest android:versionCode=\"1\" \n      xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    </android>\n    <modules>\n      <module platform=\"iphone\">ti.map</module>\n      <module platform=\"android\">ti.map</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n    </deployment-targets>\n    <sdk-version>8.0.0.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\"/>\n    <plugins/>\n  </ti:app>","modules":[{"id":"ti.map","platform":["iphone"],"deployType":["test"],"modulePath":"/Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0","version":"3.1.0","manifest":{"version":"3.1.0","apiversion":"2","architectures":"armv7 arm64 i386 x86_64","description":"External version of Map module","author":"Jeff Haynie, Jon Alter, Pedro Enrique, Hans Knöchel, Vijay Singh","license":"Apache Public License v2","copyright":"Copyright (c) 2013-present by Axway Appcelerator","name":"map","moduleid":"ti.map","guid":"fee93b77-8eb3-418c-8f04-013664c4af83","platform":"iphone","minsdk":"6.2.2.GA"},"native":true,"libName":"libti.map.a","libFile":"/Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0/libti.map.a","isFramework":false,"hash":"237405ae715689633adde73475cf6ebc"}]},"gzip":true,"followAllRedirects":true,"url":"https://platform.axway.com/api/v1/auth/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"JfhorrhWz6Fl9jBZnUXBww==","pepper":"1drYn+z2BXQ0x+UkBIoJjQ==","hmacKey":"Oqmy5D3Y0o0HkIm7QRTFIQ==","o":100000720,"u":"c0bc2c23-69a7-4b26-ac94-301bf2e94a9d","p":"enterprise","i":"5cc39958cd106a266bf18782","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 1 native module library
+[TRACE]  No extensions to add
+[DEBUG]  Writing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/SampleLocationBG.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/SampleLocationBG.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/project.xcconfig
+[DEBUG]  Writing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/lib/libtiverify.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/SampleLocationBG_Prefix.pch
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/SampleLocationBG.xcodeproj/xcshareddata/xcschemes/SampleLocationBG.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/debugger.plist
+[DEBUG]  Skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  Found generated 1024x1024 app icon: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Marketing.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   Creating assets image set
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/Contents.json
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/Contents.json
+[DEBUG]  Copying resources
+[DEBUG]  Copying /Users/U13967/Library/Application Support/Titanium/modules/iphone/ti.map/3.1.0/assets/README => /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ti.map/README
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-1792h@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-2436h@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-2688h@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-1792h@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-2436h@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-2688h@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/f58b0d04f3ad524648680e9940fb4e77323cb9bb.imageset/tab1@3x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2@2x.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Assets.xcassets/cb2e9b637cf08b6cee5c34a9d42ed14216474da9.imageset/tab2@3x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/_app_props__json
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/bootstrap_loader_js
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/extensions/Error_js
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/extensions/binding_js
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/extensions/os_js
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/extensions/path_js
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/extensions/process_js
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_main_js
+[WARN]   The implicit global scope for variable declarations in app.js is deprecated in 7.5.0, and will be removed in 9.0.0
+[WARN]   See http://go.appcelerator.com/Titanium_SDK_7.5.0_Functionality_Update for more info
+[DEBUG]  Copying and minifying /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/Resources/app.js => /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/app_js
+[DEBUG]  Copying and minifying /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/Resources/bg.js => /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/bg_js
+[INFO]   Writing bootstrap json
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets/ti_internal/bootstrap_json
+[INFO]   Encrypting JavaScript files
+[DEBUG]  Preparing _app_props__json
+[DEBUG]  Preparing ti_internal/bootstrap_loader_js
+[DEBUG]  Preparing ti_internal/extensions/Error_js
+[DEBUG]  Preparing ti_internal/extensions/binding_js
+[DEBUG]  Preparing ti_internal/extensions/os_js
+[DEBUG]  Preparing ti_internal/extensions/path_js
+[DEBUG]  Preparing ti_internal/extensions/process_js
+[DEBUG]  Preparing ti_main_js
+[DEBUG]  Preparing app_js
+[DEBUG]  Preparing bg_js
+[DEBUG]  Preparing ti_internal/bootstrap_json
+[DEBUG]  Running /Users/U13967/Library/Application Support/Titanium/mobilesdk/osx/8.0.0.GA/iphone/titanium_prep "com.navistar.dvirdev" "/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/assets"
+[DEBUG]  Writing application routing source file: /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Optimizing .plist and .png files
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/Info.plist
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/modules/ui/images/photoDefault.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchScreen.storyboardc/Info.plist
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon29x29@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon29x29@2x~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon29x29@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon29x29~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon40x40@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon40x40@2x~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon40x40@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon40x40~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon60x60@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon60x60@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon76x76@2x~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon76x76~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/AppIcon83.5x83.5@2x~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-1100-Landscape-2436h@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-1100-Portrait-2436h@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-1200-Landscape-1792h@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-1200-Landscape-2688h@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-1200-Portrait-1792h@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-1200-Portrait-2688h@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-700-568h@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-700-Landscape@2x~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-700-Landscape~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-700-Portrait@2x~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-700-Portrait~ipad.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-700@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-800-667h@2x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-800-Landscape-736h@3x.png
+[DEBUG]  Optimizing /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/LaunchImage-800-Portrait-736h@3x.png
+[INFO]   Writing index.json with listing of JS/JSON files
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target SampleLocationBG -configuration Debug -scheme SampleLocationBG -derivedDataPath /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData -UseNewBuildSystem=YES OBJROOT=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData
+[TRACE]      UseNewBuildSystem = YES
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products
+[TRACE]  note: Using new build system
+[TRACE]  note: Planning build
+[TRACE]  note: Constructing build description
+[TRACE]  
+[TRACE]  ProcessProductPackaging "" /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG.app.xcent (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      
+[TRACE]  Entitlements:
+[TRACE]  {
+[TRACE]      "application-identifier" = "K4399MNNEW.com.navistar.dvirdev";
+[TRACE]      "com.apple.developer.team-identifier" = K4399MNNEW;
+[TRACE]      "get-task-allow" = 1;
+[TRACE]      "keychain-access-groups" =     (
+[TRACE]          "K4399MNNEW.com.navistar.dvirdev"
+[TRACE]      );
+[TRACE]  }
+[TRACE]      builtin-productPackagingUtility -entitlements -format xml -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG.app.xcent
+[TRACE]  
+[TRACE]  CompileC /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/ApplicationRouting.o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Classes/ApplicationRouting.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wunreachable-code -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DLAUNCHSCREEN_STORYBOARD=1 -DDEFAULT_BGCOLOR_RED=1 -DDEFAULT_BGCOLOR_GREEN=1 -DDEFAULT_BGCOLOR_BLUE=1 -DTI_LOG_SERVER_PORT=44768 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=9.0 -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-unguarded-availability -index-store-path /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData/Index/DataStore -iquote /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-generated-files.hmap -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-own-target-headers.hmap -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-all-target-headers.hmap -iquote /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-project-headers.hmap -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/libxml2 -Iheaders -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/DerivedSources-normal/armv7 -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/DerivedSources/armv7 -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/DerivedSources -Wno-arc-performSelector-leaks -F/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos -FFrameworks -DDEBUG -include /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/PrecompiledHeaders/SharedPrecompiledHeaders/16169922939498109429/SampleLocationBG_Prefix.pch -MMD -MT dependencies -MF /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/ApplicationRouting.d --serialize-diagnostics /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/ApplicationRouting.dia -c /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Classes/ApplicationRouting.m -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileC /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/ApplicationRouting.o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Classes/ApplicationRouting.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wunreachable-code -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DLAUNCHSCREEN_STORYBOARD=1 -DDEFAULT_BGCOLOR_RED=1 -DDEFAULT_BGCOLOR_GREEN=1 -DDEFAULT_BGCOLOR_BLUE=1 -DTI_LOG_SERVER_PORT=44768 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=9.0 -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-unguarded-availability -index-store-path /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/DerivedData/Index/DataStore -iquote /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-generated-files.hmap -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-own-target-headers.hmap -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-all-target-headers.hmap -iquote /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG-project-headers.hmap -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/libxml2 -Iheaders -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/DerivedSources-normal/arm64 -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/DerivedSources/arm64 -I/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/DerivedSources -Wno-arc-performSelector-leaks -F/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos -FFrameworks -DDEBUG -include /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/PrecompiledHeaders/SharedPrecompiledHeaders/16738283711930807880/SampleLocationBG_Prefix.pch -MMD -MT dependencies -MF /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/ApplicationRouting.d --serialize-diagnostics /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/ApplicationRouting.dia -c /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Classes/ApplicationRouting.m -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/ApplicationRouting.o
+[TRACE]  
+[TRACE]  Ld /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/SampleLocationBG normal armv7 (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=9.0
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -L/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos -L/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/lib -L/Users/U13967/Library/Application\ Support/Titanium/modules/iphone/ti.map/3.1.0 -F/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos -FFrameworks -filelist /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/SampleLocationBG.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=9.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/SampleLocationBG_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -final_output -Xlinker /Applications/SampleLocationBG.app/SampleLocationBG -stdlib=libc++ -fobjc-link-runtime -ObjC -weak_framework JavaScriptCore -weak_framework MapKit -weak_framework MapKit -lxml2 -framework CoreMedia -weak_framework CoreMotion -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -ltiverify -lti.map -framework TitaniumKit -Xlinker -dependency_info -Xlinker /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/SampleLocationBG_dependency_info.dat -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/SampleLocationBG
+[TRACE]  
+[TRACE]  Ld /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/SampleLocationBG normal arm64 (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=9.0
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -L/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos -L/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/lib -L/Users/U13967/Library/Application\ Support/Titanium/modules/iphone/ti.map/3.1.0 -F/Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos -FFrameworks -filelist /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/SampleLocationBG.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=9.0 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/SampleLocationBG_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -final_output -Xlinker /Applications/SampleLocationBG.app/SampleLocationBG -stdlib=libc++ -fobjc-link-runtime -ObjC -weak_framework JavaScriptCore -weak_framework MapKit -weak_framework MapKit -lxml2 -framework CoreMedia -weak_framework CoreMotion -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -ltiverify -lti.map -framework TitaniumKit -Xlinker -dependency_info -Xlinker /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/SampleLocationBG_dependency_info.dat -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/SampleLocationBG
+[TRACE]  
+[TRACE]  CreateUniversalBinary /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/SampleLocationBG normal armv7\ arm64 (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/armv7/SampleLocationBG /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/Objects-normal/arm64/SampleLocationBG -output /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/SampleLocationBG
+[TRACE]  
+[TRACE]  ProcessInfoPlistFile /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/Info.plist /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Info.plist (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      builtin-infoPlistUtility /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/assetcatalog_generated_info.plist -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/Info.plist
+[TRACE]  
+[TRACE]  GenerateDSYMFile /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app.dSYM /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/SampleLocationBG (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/SampleLocationBG -o /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app.dSYM
+[TRACE]  
+[TRACE]  Strip /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/SampleLocationBG (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app/SampleLocationBG
+[TRACE]  
+[TRACE]  CodeSign /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      
+[TRACE]  Signing Identity:     "iPhone Developer: Srinivas Mallela (834GGUQVGZ)"
+[TRACE]  Provisioning Profile: "edlseetest"
+[TRACE]                        (2bd2e663-92a6-4cd5-baa1-33f69dd07f20)
+[TRACE]      /usr/bin/codesign --force --sign 837A654BEAAE4387E63AAB1610BAB2B30216AFA7 --entitlements /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Intermediates/SampleLocationBG.build/Debug-iphoneos/SampleLocationBG.build/SampleLocationBG.app.xcent /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app
+[TRACE]  
+[TRACE]  Validate /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app (in target: SampleLocationBG)
+[TRACE]      cd /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone
+[TRACE]      builtin-validationUtility /Users/U13967/Documents/Appcelerator_Studio_Workspace/SampleLocationBG/build/iphone/build/Products/Debug-iphoneos/SampleLocationBG.app
+[TRACE]  
+[TRACE]  ** BUILD SUCCEEDED **
+[INFO]   Finished building the application in 26s 243ms
+[INFO]   Installing app on device: iPhone
+[INFO]   App successfully installed on device: iPhone
